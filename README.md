@@ -20,7 +20,7 @@ The data for this project is sourced from the kaggle dataset:
 
 ## Schema
 
-...sql
+'''sql
 create table netflix  (show_id varchar(7),
 type              varchar(10),
 title             varchar(150),
@@ -34,7 +34,7 @@ duration          varchar(12),
 listed_in         varchar(25),
 description       varchar(300)
 );
-...
+'''
 
 ...sql
 select * from netflix
